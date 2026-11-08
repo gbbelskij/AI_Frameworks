@@ -1,0 +1,90 @@
+[
+  {
+    "lab": 4,
+    "algorithm": "RandomForest",
+    "task": "classification",
+    "variant": "sklearn baseline",
+    "roc_auc": 0.6087132376813653,
+    "accuracy": 0.5785894695939382,
+    "f1": 0.6373516134425682,
+    "fit_time": 3.891656894999869,
+    "predict_time": 0.22048696699948778
+  },
+  {
+    "lab": 4,
+    "algorithm": "RandomForest",
+    "task": "regression",
+    "variant": "sklearn baseline",
+    "r2": 0.9863814332120073,
+    "rmse": 0.058293438738849505,
+    "mae": 0.009468750000000001,
+    "fit_time": 0.24752387299940892,
+    "predict_time": 0.05947958000069775
+  },
+  {
+    "lab": 4,
+    "algorithm": "RandomForest",
+    "task": "classification",
+    "variant": "sklearn improved",
+    "roc_auc": 0.6387331302807477,
+    "accuracy": 0.5984068389353021,
+    "f1": 0.6355782792665726,
+    "fit_time": 4.105713864999416,
+    "predict_time": 0.2504875810000158
+  },
+  {
+    "lab": 4,
+    "algorithm": "RandomForest",
+    "task": "regression",
+    "variant": "sklearn improved",
+    "r2": 0.9871636248200766,
+    "rmse": 0.056594623321379996,
+    "mae": 0.009010416666666667,
+    "fit_time": 0.5898034629999529,
+    "predict_time": 0.1422907739997754
+  },
+  {
+    "lab": 4,
+    "algorithm": "RandomForest",
+    "task": "classification",
+    "variant": "custom",
+    "roc_auc": 0.6069220200091149,
+    "accuracy": 0.5778123178550612,
+    "f1": 0.6275282824820021,
+    "fit_time": 47.990562926000166,
+    "predict_time": 0.9774451120001686
+  },
+  {
+    "lab": 4,
+    "algorithm": "RandomForest",
+    "task": "regression",
+    "variant": "custom",
+    "r2": 0.9890177292473876,
+    "rmse": 0.05234799423091586,
+    "mae": 0.00796875,
+    "fit_time": 0.2577960950002307,
+    "predict_time": 0.0293562609995206
+  },
+  {
+    "lab": 4,
+    "algorithm": "RandomForest",
+    "task": "classification",
+    "variant": "custom improved",
+    "roc_auc": 0.6386860992724455,
+    "accuracy": 0.5988925587721002,
+    "f1": 0.6362435027750859,
+    "fit_time": 3.06245951100027,
+    "predict_time": 0.445213383999544
+  },
+  {
+    "lab": 4,
+    "algorithm": "RandomForest",
+    "task": "regression",
+    "variant": "custom improved",
+    "r2": 0.9890392983096987,
+    "rmse": 0.052296563515737395,
+    "mae": 0.008041666666666666,
+    "fit_time": 0.4189063910007462,
+    "predict_time": 0.03935132200058433
+  }
+]

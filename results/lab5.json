@@ -1,0 +1,90 @@
+[
+  {
+    "lab": 5,
+    "algorithm": "GradientBoosting",
+    "task": "classification",
+    "variant": "sklearn baseline",
+    "roc_auc": 0.6118288144120001,
+    "accuracy": 0.5814066446473674,
+    "f1": 0.655858158294066,
+    "fit_time": 16.64164183200046,
+    "predict_time": 0.03654282399929798
+  },
+  {
+    "lab": 5,
+    "algorithm": "GradientBoosting",
+    "task": "regression",
+    "variant": "sklearn baseline",
+    "r2": 0.8696643679419619,
+    "rmse": 0.18033729613719818,
+    "mae": 0.11710950110721183,
+    "fit_time": 0.24870605300020543,
+    "predict_time": 0.004142161000345368
+  },
+  {
+    "lab": 5,
+    "algorithm": "GradientBoosting",
+    "task": "classification",
+    "variant": "sklearn improved",
+    "roc_auc": 0.6384811730322377,
+    "accuracy": 0.5968525354575481,
+    "f1": 0.6352610300580067,
+    "fit_time": 33.72517416900064,
+    "predict_time": 0.06638702300006116
+  },
+  {
+    "lab": 5,
+    "algorithm": "GradientBoosting",
+    "task": "regression",
+    "variant": "sklearn improved",
+    "r2": 0.9840282481667645,
+    "rmse": 0.06312919471605874,
+    "mae": 0.012722357448096517,
+    "fit_time": 1.7217740010000853,
+    "predict_time": 0.015214188999379985
+  },
+  {
+    "lab": 5,
+    "algorithm": "GradientBoosting",
+    "task": "classification",
+    "variant": "custom",
+    "roc_auc": 0.6118286626990701,
+    "accuracy": 0.5814066446473674,
+    "f1": 0.655858158294066,
+    "fit_time": 28.451313413000207,
+    "predict_time": 0.07625860400003148
+  },
+  {
+    "lab": 5,
+    "algorithm": "GradientBoosting",
+    "task": "regression",
+    "variant": "custom",
+    "r2": 0.8696643679419619,
+    "rmse": 0.18033729613719818,
+    "mae": 0.11710950110721177,
+    "fit_time": 0.2105364049994023,
+    "predict_time": 0.008966194000095129
+  },
+  {
+    "lab": 5,
+    "algorithm": "GradientBoosting",
+    "task": "classification",
+    "variant": "custom improved",
+    "roc_auc": 0.6386639112564318,
+    "accuracy": 0.5962696716533903,
+    "f1": 0.6347978910369069,
+    "fit_time": 4.771854243000234,
+    "predict_time": 0.13321134999932838
+  },
+  {
+    "lab": 5,
+    "algorithm": "GradientBoosting",
+    "task": "regression",
+    "variant": "custom improved",
+    "r2": 0.9833510750703441,
+    "rmse": 0.06445358377697602,
+    "mae": 0.013669786475046575,
+    "fit_time": 4.2820823269994435,
+    "predict_time": 0.056639102999724855
+  }
+]

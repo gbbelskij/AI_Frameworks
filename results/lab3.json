@@ -1,0 +1,90 @@
+[
+  {
+    "lab": 3,
+    "algorithm": "DecisionTree",
+    "task": "classification",
+    "variant": "sklearn baseline",
+    "roc_auc": 0.5181381910599818,
+    "accuracy": 0.5193316495045658,
+    "f1": 0.5435424354243542,
+    "fit_time": 3.2354771419995814,
+    "predict_time": 0.023937781000313407
+  },
+  {
+    "lab": 3,
+    "algorithm": "DecisionTree",
+    "task": "regression",
+    "variant": "sklearn baseline",
+    "r2": 0.9874760283354859,
+    "rmse": 0.05590169943749474,
+    "mae": 0.003125,
+    "fit_time": 0.00990730400008033,
+    "predict_time": 0.0026823379994311836
+  },
+  {
+    "lab": 3,
+    "algorithm": "DecisionTree",
+    "task": "classification",
+    "variant": "sklearn improved",
+    "roc_auc": 0.6368361876603985,
+    "accuracy": 0.5965611035554692,
+    "f1": 0.6402771762667822,
+    "fit_time": 0.8094126060004783,
+    "predict_time": 0.08285048600009759
+  },
+  {
+    "lab": 3,
+    "algorithm": "DecisionTree",
+    "task": "regression",
+    "variant": "sklearn improved",
+    "r2": 0.9843450354193574,
+    "rmse": 0.0625,
+    "mae": 0.0046875,
+    "fit_time": 0.02175933000035002,
+    "predict_time": 0.005643944999974337
+  },
+  {
+    "lab": 3,
+    "algorithm": "DecisionTree",
+    "task": "classification",
+    "variant": "custom",
+    "roc_auc": 0.5213626597461296,
+    "accuracy": 0.5222459685253545,
+    "f1": 0.5444609114486847,
+    "fit_time": 5.478283315000226,
+    "predict_time": 0.013917025999944599
+  },
+  {
+    "lab": 3,
+    "algorithm": "DecisionTree",
+    "task": "regression",
+    "variant": "custom",
+    "r2": 0.9874760283354859,
+    "rmse": 0.05590169943749474,
+    "mae": 0.003125,
+    "fit_time": 0.007408353999380779,
+    "predict_time": 0.0016833390000101645
+  },
+  {
+    "lab": 3,
+    "algorithm": "DecisionTree",
+    "task": "classification",
+    "variant": "custom improved",
+    "roc_auc": 0.6378020301010591,
+    "accuracy": 0.5951039440450748,
+    "f1": 0.6273913820847488,
+    "fit_time": 0.1903301010006544,
+    "predict_time": 0.09434958699966955
+  },
+  {
+    "lab": 3,
+    "algorithm": "DecisionTree",
+    "task": "regression",
+    "variant": "custom improved",
+    "r2": 0.9843450354193574,
+    "rmse": 0.0625,
+    "mae": 0.0046875,
+    "fit_time": 0.02705724299994472,
+    "predict_time": 0.0018971059998875717
+  }
+]

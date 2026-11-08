@@ -1,0 +1,90 @@
+[
+  {
+    "lab": 1,
+    "algorithm": "KNN",
+    "task": "classification",
+    "variant": "sklearn baseline",
+    "roc_auc": 0.5273342703123891,
+    "accuracy": 0.5277831746648534,
+    "f1": 0.563996771010853,
+    "fit_time": 0.0781709149996459,
+    "predict_time": 11.75328469499982
+  },
+  {
+    "lab": 1,
+    "algorithm": "KNN",
+    "task": "regression",
+    "variant": "sklearn baseline",
+    "r2": 0.8269187115964151,
+    "rmse": 0.20781602440620406,
+    "mae": 0.1171875,
+    "fit_time": 0.006652612999459961,
+    "predict_time": 0.17693003099975613
+  },
+  {
+    "lab": 1,
+    "algorithm": "KNN",
+    "task": "classification",
+    "variant": "sklearn improved",
+    "roc_auc": 0.6383972757819436,
+    "accuracy": 0.5974353992617059,
+    "f1": 0.6353396691305878,
+    "fit_time": 0.1684994219995133,
+    "predict_time": 7.08985471699998
+  },
+  {
+    "lab": 1,
+    "algorithm": "KNN",
+    "task": "regression",
+    "variant": "sklearn improved",
+    "r2": 0.9829451122304262,
+    "rmse": 0.06523466035868561,
+    "mae": 0.006268374565088694,
+    "fit_time": 0.10957244200017158,
+    "predict_time": 0.11174953099998675
+  },
+  {
+    "lab": 1,
+    "algorithm": "KNN",
+    "task": "classification",
+    "variant": "custom",
+    "roc_auc": 0.5273342703123891,
+    "accuracy": 0.5277831746648534,
+    "f1": 0.563996771010853,
+    "fit_time": 0.06632060899937642,
+    "predict_time": 16.55564826799946
+  },
+  {
+    "lab": 1,
+    "algorithm": "KNN",
+    "task": "regression",
+    "variant": "custom",
+    "r2": 0.8161480959649329,
+    "rmse": 0.21418449990603897,
+    "mae": 0.121875,
+    "fit_time": 0.005938011999205628,
+    "predict_time": 0.040684864000468224
+  },
+  {
+    "lab": 1,
+    "algorithm": "KNN",
+    "task": "classification",
+    "variant": "custom improved",
+    "roc_auc": 0.6383972757819436,
+    "accuracy": 0.5974353992617059,
+    "f1": 0.6353396691305878,
+    "fit_time": 0.24285916600001656,
+    "predict_time": 17.611322962000486
+  },
+  {
+    "lab": 1,
+    "algorithm": "KNN",
+    "task": "regression",
+    "variant": "custom improved",
+    "r2": 0.9830377789001717,
+    "rmse": 0.06505719473760058,
+    "mae": 0.006154823086141284,
+    "fit_time": 6.357226975000231,
+    "predict_time": 0.10617929600084608
+  }
+]

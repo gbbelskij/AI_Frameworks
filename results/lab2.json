@@ -1,0 +1,90 @@
+[
+  {
+    "lab": 2,
+    "algorithm": "Linear",
+    "task": "classification",
+    "variant": "sklearn baseline",
+    "roc_auc": 0.63419991000389,
+    "accuracy": 0.597921119098504,
+    "f1": 0.6398677455842687,
+    "fit_time": 29.54379551599959,
+    "predict_time": 0.04185140699973999
+  },
+  {
+    "lab": 2,
+    "algorithm": "Linear",
+    "task": "regression",
+    "variant": "sklearn baseline",
+    "r2": 0.6419610787141279,
+    "rmse": 0.2988953045855264,
+    "mae": 0.2583223877030577,
+    "fit_time": 0.12204963800013502,
+    "predict_time": 0.012892326999462966
+  },
+  {
+    "lab": 2,
+    "algorithm": "Linear",
+    "task": "classification",
+    "variant": "sklearn improved",
+    "roc_auc": 0.6394855126288878,
+    "accuracy": 0.5987954148047406,
+    "f1": 0.6392382948986722,
+    "fit_time": 1.3509084790002817,
+    "predict_time": 0.18144744300025195
+  },
+  {
+    "lab": 2,
+    "algorithm": "Linear",
+    "task": "regression",
+    "variant": "sklearn improved",
+    "r2": 0.9206180530892069,
+    "rmse": 0.14073912471576108,
+    "mae": 0.08160347776507652,
+    "fit_time": 0.3741396909999821,
+    "predict_time": 0.04453491500044038
+  },
+  {
+    "lab": 2,
+    "algorithm": "Linear",
+    "task": "classification",
+    "variant": "custom",
+    "roc_auc": 0.6341919830032969,
+    "accuracy": 0.5977268311637848,
+    "f1": 0.6399443526649856,
+    "fit_time": 2.0971160620001683,
+    "predict_time": 0.048770281000543036
+  },
+  {
+    "lab": 2,
+    "algorithm": "Linear",
+    "task": "regression",
+    "variant": "custom",
+    "r2": 0.6419610787141279,
+    "rmse": 0.29889530458552643,
+    "mae": 0.25832238770305793,
+    "fit_time": 0.07237723900016135,
+    "predict_time": 0.0030077780002102372
+  },
+  {
+    "lab": 2,
+    "algorithm": "Linear",
+    "task": "classification",
+    "variant": "custom improved",
+    "roc_auc": 0.6394696206994694,
+    "accuracy": 0.5986011268700214,
+    "f1": 0.6391896611945511,
+    "fit_time": 3.6557675989997733,
+    "predict_time": 0.15050105299997085
+  },
+  {
+    "lab": 2,
+    "algorithm": "Linear",
+    "task": "regression",
+    "variant": "custom improved",
+    "r2": 0.9206180530892067,
+    "rmse": 0.14073912471576114,
+    "mae": 0.08160347776507662,
+    "fit_time": 1.4440586059999987,
+    "predict_time": 0.017406541000127618
+  }
+]
